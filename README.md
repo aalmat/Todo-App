@@ -22,7 +22,7 @@ docker exec -it <container_id> /bin/bash
 psql -U postgres
 
 # Create a new migration
-migrate create -ext sql -dir < directory> -seq <name>
+migrate create -ext sql -dir < directory > -seq < name >
 
 # Run migration Up/Down
 migrate -path <directory> -database <database_url> up/down
