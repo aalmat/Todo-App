@@ -9,7 +9,7 @@ Generation of migration files.
 
 Application configuration using the spf13/viper library. Working with environment variables.
 
-Working with the database using the sql library.
+Working with the database using the sqlx library.
 
 Writing SQL queries
 
